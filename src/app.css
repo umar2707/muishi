@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Lemon Tuesday';
+    src: local('Lemon Tuesday'), local('LemonTuesday'), url('../src/lemontuesday/Lemontuesday.woff2') format('woff2'), url('../src/lemontuesday/Lemontuesday.woff') format('woff'), url('../src/lemontuesday/Lemontuesday.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+h5{
+    font-size: 14px;
+}
+h6{
+    font-size: 18px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0 !important;
+}
+.justify-content-between .navbtn,.navbtn{
+    color: #000;
+    background-color: #fff;
+    padding:15px 25px ;
+    text-decoration: none;
+    transition: .6s ease all;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+.justify-content-between .navbtn:hover,.navbtn:hover{
+    background-color: #84c604;
+    color: #fff !important;
+}
+.badge-edit{
+    top: 10px;
+    left: 40px;
+}
+.badge {
+    background-color: #fd4f10 !important;
+}
+.carousel-banner{
+    width: 100%;
+    background-image: url('./img/banner.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-button{
+    background-color: #fd4f10 !important;
+    color: #fff ;
+    width: 245px;
+    height: 55px;
+    outline: none !important;
+    border: none !important;
+    font-size: 16px;
+}
+.my-button:active{
+    outline: none;
+}
+.circle{
+    border-radius: 100%;
+    font-weight: bold;
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(110deg, #d72024, #bb2024);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    text-align: center;
+}
+.next-prev-buttons button{
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    transition: .3 ease all;
+}
+.next-prev-buttons button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.index-circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.829);
+    background-color: rgba(0, 0, 0, 0.336);
+}
+.index-circle.active{
+    background-color: rgb(5, 211, 32);
+}
